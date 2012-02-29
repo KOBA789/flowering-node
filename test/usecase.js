@@ -1,8 +1,6 @@
 var fs = require('fs');
 var flowering = require('../');
 
-var noop = function () {};
-
 var foo = fs.readFile.flower('/tmp/a.txt', 'utf-8');
 var bar = fs.readFile.flower('/tmp/b.txt', 'utf-8');
 
