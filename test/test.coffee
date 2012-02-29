@@ -1,0 +1,3 @@
+flowering = require '../lib/'
+
+describe '', ->
